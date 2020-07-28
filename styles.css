@@ -43,7 +43,7 @@ html{
 #section3 {
     height: 920px;
     background-color: white;
-    color: grey;
+    color: white;
 
 }
 h1{
@@ -65,4 +65,39 @@ p {
 
 h2{
     color: grey;
+}
+
+.parallax {
+  /* The image used */
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url("./images/david-becker-YCF34YywBrs-unsplash.jpg"); 
+
+  /* Set a specific height */
+  height: 920px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),url("./images/ruslan-bardash-g83y6do219w-unsplash.jpg");
+
+  /* Set a specific height */
+  height: 920px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
