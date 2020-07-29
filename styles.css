@@ -63,8 +63,17 @@ p {
     margin-top: 50px;
 }
 
+p2 {
+    color: white;
+}
+
+p3 {
+    color: white;
+}
+
+
 h2{
-    color: grey;
+    color: white;
 }
 
 .parallax {
@@ -73,7 +82,7 @@ h2{
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   ),
-  url("./images/david-becker-YCF34YywBrs-unsplash.jpg"); 
+  url("./images/ruslan-bardash-g83y6do219w-unsplash.jpg");
 
   /* Set a specific height */
   height: 920px;
@@ -88,9 +97,9 @@ h2{
 .parallax2 {
   /* The image used */
   background-image: linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
-  ),url("./images/ruslan-bardash-g83y6do219w-unsplash.jpg");
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.1)
+  ),url("./images/pankaj-patel-1IW4HQuauSU-unsplash.jpg");
 
   /* Set a specific height */
   height: 920px;
