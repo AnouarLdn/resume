@@ -47,12 +47,22 @@ html{
 }
 
 img {
-    color: white;
-    z-index: 5;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 175px;
+    border-radius: 50%;
+}
+
+.cardimg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    margin-top: 10%;
+}
+
+.text {
+    width: 500px;
+    margin-left: 100px;
+    font-size: 30px;
 }
 
 .navbar {
@@ -61,7 +71,7 @@ img {
     align-items:flex-start;
     justify-content:space-between;
     color: white;
-    z-index: 5;
+    z-index: -50;
     top: 50px;
 }
 
@@ -78,6 +88,8 @@ h1{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-family: 'Caveat', cursive;
+    font-size: 75px;
 }
 p {
     color: white;
@@ -86,10 +98,13 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
     margin-top: 50px;
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
 }
 
 p2 {
     color: white;
+    font-family: 'Caveat', cursive;
 }
 
 p3 {
@@ -99,7 +114,11 @@ p3 {
 h2{
     color: white;
     text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 45px;
 }
+
+
 
 .parallax {
   /* The image used */
