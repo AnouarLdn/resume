@@ -13,7 +13,7 @@ html{
     background-image:  linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ), url(images/greg-rakozy-oMpAz-DN-9I-unsplash.jpg);
+    ), url(images/ruslan-bardash-g83y6do219w-unsplash.jpg);
     background-size: cover;
     width: 720px;
 
@@ -47,8 +47,8 @@ html{
 }
 
 img {
-    width: 175px;
-    border-radius: 50%;
+    height: 225px;
+
 }
 
 .cardimg {
@@ -56,7 +56,6 @@ img {
     flex-direction: row;
     justify-content: center;
     align-items:center;
-    margin-top: 10%;
 }
 
 .text {
@@ -73,6 +72,13 @@ img {
     color: white;
     z-index: -50;
     top: 50px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10%;
 }
 
 a {
@@ -105,6 +111,7 @@ p {
 p2 {
     color: white;
     font-family: 'Caveat', cursive;
+
 }
 
 p3 {
@@ -118,7 +125,17 @@ h2{
     font-size: 45px;
 }
 
+.cards {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
 
+}
+
+.card {
+    border: 1px solid yellow;
+}
 
 .parallax {
   /* The image used */
@@ -143,7 +160,7 @@ h2{
   background-image: linear-gradient(
     rgba(0, 0, 0, 0.1),
     rgba(0, 0, 0, 0.1)
-  ),url("./images/theme-inn-yPSbirjJWzs-unsplash.jpg");
+  ),url("images/ruslan-bardash-g83y6do219w-unsplash.jpg");
 
   /* Set a specific height */
   height: 920px;
@@ -160,7 +177,7 @@ h2{
   background-image: linear-gradient(
     rgba(0, 0, 0, 0.1),
     rgba(0, 0, 0, 0.1)
-  ),url("./images/scott-dougall-g-u-7t5mJpU-unsplash.jpg");
+  ),url("images/ruslan-bardash-g83y6do219w-unsplash.jpg");
 
   /* Set a specific height */
   height: 920px;
@@ -172,6 +189,22 @@ h2{
   background-size: cover;
 }
 
+.parallax4 {
+  /* The image used */
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.1)
+  ),url("images/ruslan-bardash-g83y6do219w-unsplash.jpg");
+
+  /* Set a specific height */
+  height: 920px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* button top */
 
 
