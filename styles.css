@@ -13,7 +13,7 @@ html{
     background-image:  linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ), url(images/ruslan-bardash-g83y6do219w-unsplash.jpg);
+    ), url(images/greg-rakozy-oMpAz-DN-9I-unsplash.jpg);
     background-size: cover;
     width: 720px;
 
@@ -43,12 +43,19 @@ html{
     height: 920px;
     background-color: white;
     color: white;
-
 }
 
 img {
     height: 225px;
+}
 
+.arrows {
+    z-index: 100;
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    /* background-image: url('images/down_arrows.png'); */
+    color: red;
 }
 
 .cardimg {
@@ -65,13 +72,15 @@ img {
 }
 
 .navbar {
-    display:flex;
-    flex-direction: row;
-    align-items:flex-start;
-    justify-content:space-between;
     color: white;
-    z-index: -50;
-    top: 50px;
+    z-index: 5;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+
 }
 
 .logo {
@@ -91,7 +100,7 @@ h1{
     color: white;
     z-index: 5;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Caveat', cursive;
@@ -100,7 +109,7 @@ h1{
 p {
     color: white;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin-top: 50px;
@@ -135,6 +144,7 @@ h2{
 
 .card {
     border: 1px solid yellow;
+    box-shadow: 0 0 6px 2px rgba(0,0,0,9);
 }
 
 .parallax {
@@ -158,9 +168,9 @@ h2{
 .parallax2 {
   /* The image used */
   background-image: linear-gradient(
-    rgba(0, 0, 0, 0.1),
-    rgba(0, 0, 0, 0.1)
-  ),url("images/ruslan-bardash-g83y6do219w-unsplash.jpg");
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),url("images/denis-pavlovic-wl5AypUmamo-unsplash.jpg");
 
   /* Set a specific height */
   height: 920px;
@@ -175,8 +185,8 @@ h2{
 .parallax3 {
   /* The image used */
   background-image: linear-gradient(
-    rgba(0, 0, 0, 0.1),
-    rgba(0, 0, 0, 0.1)
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
   ),url("images/ruslan-bardash-g83y6do219w-unsplash.jpg");
 
   /* Set a specific height */
@@ -192,9 +202,9 @@ h2{
 .parallax4 {
   /* The image used */
   background-image: linear-gradient(
-    rgba(0, 0, 0, 0.1),
-    rgba(0, 0, 0, 0.1)
-  ),url("images/ruslan-bardash-g83y6do219w-unsplash.jpg");
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),url("images/simone-hutsch-_uO-_QPfqCk-unsplash.jpg");
 
   /* Set a specific height */
   height: 920px;
@@ -204,26 +214,4 @@ h2{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-/* button top */
-
-
-#myBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: red; /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
-}
-
-#myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
 }
