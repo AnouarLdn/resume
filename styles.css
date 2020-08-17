@@ -54,7 +54,7 @@ html{
 }
 
 img {
-    height: 225px;
+    height: 200px;
 }
 
 .arrows {
@@ -292,6 +292,7 @@ h2{
     box-shadow: 0 0 6px 2px rgba(0,0,0,9);
     text-align: center;
     font-family: 'Caveat', cursive;
+    border: 5px solid yellow;
 }
 
 .parallax {
@@ -386,4 +387,61 @@ h2{
     bottom:32px;
     pointer-events: auto;
     opacity:1;
+}
+
+.contactForm {
+    height: 90%;
+    width: 50%;
+    margin-left: 25%;
+    background: pink;
+    opacity: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-family: 'Caveat', cursive;
+    color:rgba(51, 110, 123, 1);
+    font-size: 20px;
+}
+
+form label {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+  width: 300px;
+  height:30px;
+  background-color: white;
+  border: none;
+  color: #5c5b5b;
+  border-radius: 5%;
+}
+
+textarea {
+  width: 300px;
+  height:200px;
+  background-color: white;
+  border: none;
+  color: #5c5b5b;
+}
+
+button {
+  background: #336E7B;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  width: 300px;
+  border-radius: 8px;
+  padding: 24px 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
 }
