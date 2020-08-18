@@ -7,3 +7,23 @@ window.addEventListener("scroll", () => {
         toTop.classList.remove("active");
     }
     })
+
+// Side navbar
+
+(function() {
+
+  var hamburger = {
+    navToggle: document.querySelector('.nav-toggle'),
+    nav: document.querySelector('nav'),
+
+    doToggle: function(e) {
+      // e.preventDefault(); // Had to remove this line to allow the href to work
+      this.navToggle.classList.toggle('expanded');
+      this.nav.classList.toggle('expanded');
+    }
+  };
+
+  hamburger.navToggle.addEventListener('click', function(e) { hamburger.doToggle(e); });
+  hamburger.nav.addEventListener('click', function(e) { hamburger.doToggle(e); });
+
+}());
