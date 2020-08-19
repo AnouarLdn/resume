@@ -4,18 +4,18 @@
 }
 
 html{
-    /* width: 1720px; */
-    height:920px;
     scroll-behavior: smooth;
+    height:920px;
+    width: 100%;
 }
 
 #particles-js {
     background-image:  linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ), url(images/greg-rakozy-oMpAz-DN-9I-unsplash.jpg);
+    ), url("images/greg-rakozy-oMpAz-DN-9I-unsplash.jpg");
     background-size: cover;
-    width: 720px;
+    width: 1280px;
 
     position: absolute;
     width: 100%;
@@ -23,13 +23,10 @@ html{
     /* filter: grayscale(10%); */
     /* The image used */
     /* Set a specific height */
-    height: 920px;
-
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-
 }
 
 #section1 {
@@ -44,7 +41,6 @@ html{
 #section2 {
     height: 920px;
     background-color: white;
-
 }
 
 #section3 {
@@ -89,7 +85,7 @@ img {
   color: white;
   cursor: pointer;
   font-size: 2rem;
-  height: 100vh;
+  height: 200vh;
   left: -20rem;
   padding: 6rem 2rem 2rem 2rem;
   position: fixed;
@@ -102,7 +98,7 @@ img {
 
 .nav ul {
   position: absolute;
-  top: 40%;
+  top: 20%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -110,10 +106,6 @@ img {
   margin: 0;
   padding: 0;
 }
-
-/* ul li a {
-  display: block;
-} */
 
 .nav-toggle {
   -webkit-user-select: none;
@@ -180,7 +172,7 @@ a {
 
 h1{
     color: white;
-    z-index: 5;
+    /* z-index: 5; */
     position: absolute;
     top: 40%;
     left: 50%;
@@ -202,7 +194,7 @@ p {
 p2 {
     color: white;
     font-family: 'Caveat', cursive;
-
+    font-size: 25px;
 }
 
 p3 {
@@ -364,10 +356,10 @@ h2{
 }
 
 .card {
-    box-shadow: 0 0 6px 2px rgba(0,0,0,9);
+    /* box-shadow: 0 0 6px 2px rgba(0,0,0,9); */
     text-align: center;
     font-family: 'Caveat', cursive;
-    border: 5px solid yellow;
+
 }
 
 .parallax {
@@ -518,5 +510,46 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
 
+@media (min-width: 921px) and (max-width: 1024px) {
+    h1{
+        font-size: 50px;
+    }
+}
+@media (max-width: 920px) {
+h1{
+    font-size: 50px;
+}
+
+p{
+    font-size: 25px;
+}
+
+p2{
+    font-size: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card {
+
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    border: none;
+}
+
+.cardimg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.contactForm {
+    width: 65%;
 }
