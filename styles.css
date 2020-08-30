@@ -499,7 +499,7 @@ input {
   background-color: white;
   border: none;
   color: #5c5b5b;
-  border-radius: 5%;
+  border-radius: 8px;
 }
 
 textarea {
@@ -508,6 +508,7 @@ textarea {
   background-color: white;
   border: none;
   color: #5c5b5b;
+
 }
 
 button {
@@ -517,6 +518,7 @@ button {
   font-size: 16px;
   width: 300px;
   border-radius: 8px;
+  border: none;
   padding: 24px 70px;
   display: flex;
   flex-direction: row;
