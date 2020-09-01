@@ -525,6 +525,14 @@ button {
   justify-content: center;
 }
 
+.copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75%;
+}
+
 @media (max-width: 1024px) {
 
 html{
