@@ -1,4 +1,4 @@
-# This is a page which will highlight my skills and my portfolio
+# Portfolio
 
 https://houseofhaidary.netlify.app/
 
