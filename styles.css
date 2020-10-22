@@ -366,7 +366,8 @@ h2{
   background-image: linear-gradient(
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
-  );
+  ),
+  url("images/ruslan-bardash-g83y6do219w-unsplash.jpg");
 
   /* Set a specific height */
   height: 920px;
