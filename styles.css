@@ -380,6 +380,7 @@ h2{
 
   /* Set a specific height */
   height: 920px;
+  width: auto;
 
 
   /* Create the parallax scrolling effect */
@@ -415,6 +416,7 @@ h2{
 
   /* Set a specific height */
   height: 920px;
+  width: auto;
 
   /* Create the parallax scrolling effect */
   background-attachment: local;
