@@ -384,8 +384,8 @@ h2{
 
 
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
+  /* background-attachment: fixed; */
+  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -402,7 +402,7 @@ h2{
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: center;
+  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -419,8 +419,8 @@ h2{
   width: auto;
 
   /* Create the parallax scrolling effect */
-  background-attachment:fixed;
-  background-position: center;
+  /* background-attachment:fixed; */
+  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
 }
