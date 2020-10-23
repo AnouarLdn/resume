@@ -384,8 +384,8 @@ h2{
 
 
   /* Create the parallax scrolling effect */
-  background-attachment: local;
-  /* background-position: center; */
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -419,8 +419,8 @@ h2{
   width: auto;
 
   /* Create the parallax scrolling effect */
-  background-attachment:inherit;
-  /* background-position: center; */
+  background-attachment:fixed;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -579,5 +579,81 @@ p2{
 
 .contactForm {
     width: 65%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url("images/ruslan-bardash-g83y6do219w-unsplash.jpg");
+
+  /* Set a specific height */
+  height: 920px;
+  width: auto;
+
+
+  /* Create the parallax scrolling effect */
+  background-attachment: local;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),url("images/denis-pavlovic-wl5AypUmamo-unsplash.jpg");
+
+  /* Set a specific height */
+  height: 920px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3 {
+  /* The image used */
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),url("images/ruslan-bardash-g83y6do219w-unsplash.jpg");
+
+  /* Set a specific height */
+  height: 920px;
+  width: auto;
+
+  /* Create the parallax scrolling effect */
+  background-attachment:inherit;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax4 {
+  /* The image used */
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),url("images/simone-hutsch-_uO-_QPfqCk-unsplash.jpg");
+
+  /* Set a specific height */
+  height: 920px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 }
