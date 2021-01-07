@@ -657,3 +657,21 @@ p2{
 
 }
 }
+
+/* CSS for the creative of House of Haidary */
+
+.containerCreative {
+  width: 1280px;
+  height: 800px;
+  background-image: url("./images/hans-eiskonen-BAu_qNJ9YGo-unsplash.jpg");
+  /* background-color: #cccccc; */
+
+}
+
+.containerCreative h1 {
+    color: pink;
+}
+
+.containerCreative h2 {
+    color: pink;
+}
