@@ -54,6 +54,7 @@ body {
     color: white;
 }
 
+
 img {
     height: 200px;
 }
@@ -367,6 +368,7 @@ h2{
     font-family: 'Caveat', cursive;
     border: solid;
     height: 200px;
+    width: 340;
 }
 
 .parallax {
@@ -560,13 +562,20 @@ p2{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .card {
-
     text-align: center;
     font-family: 'Caveat', cursive;
-    border: none;
+    height: 200px;
+    width: 340px;
+    margin-top: 5px;
+}
+
+.card img{
+    height: 200px;
+    width: 340px;
 }
 
 .cardimg {
