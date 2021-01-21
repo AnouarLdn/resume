@@ -1,0 +1,32 @@
+body {
+    height: 100vh;
+    background-image:linear-gradient(yellow, pink);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-size: 75px;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h2 {
+    color: pink;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Playfair Display', serif;
+}
+
+h3 {
+    color: #C1E7E3;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Playfair Display', serif;
+
+}
+
+h3 a {
+    text-decoration: none;
+    color: #C1E7E3;
+}
