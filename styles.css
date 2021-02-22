@@ -59,6 +59,10 @@ img {
     height: 200px;
 }
 
+#section2 img{
+    padding-left: 2%;
+}
+
 .arrows {
     z-index: 100;
     position: absolute;
@@ -579,6 +583,7 @@ p2{
 }
 
 .cardimg {
+
     display: flex;
     flex-direction: column;
     justify-content: center;
