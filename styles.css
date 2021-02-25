@@ -25,10 +25,7 @@ body {
     position: absolute;
     width: 100%;
     height: 920px;
-    /* filter: grayscale(10%); */
-    /* The image used */
-    /* Set a specific height */
-    /* Create the parallax scrolling effect */
+
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -83,6 +80,69 @@ img {
     margin-right: 5%;
     margin-top: 10%;
     font-size: 25px;
+}
+
+.wrapper {
+  display: grid;
+  padding: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(auto, auto);
+}
+.one {
+  grid-column: 1;
+  grid-row: 1;
+  text-align: center;
+
+}
+
+.one img {
+    border: 1px solid pink;
+}
+
+.two {
+  grid-column: 2;
+  grid-row: 1;
+  text-align: center;
+}
+
+.two img {
+    border: 1px solid pink;
+}
+
+.three {
+  grid-column: 3;
+  grid-row: 1;
+  text-align: center;
+}
+
+.three img {
+    border: 1px solid pink;
+}
+
+.four {
+  grid-column: 1;
+  grid-row: 2;
+  text-align: center;
+}
+
+.four img {
+    border: 1px solid pink;
+}
+
+.five {
+  grid-column: 2;
+  grid-row: 2;
+  text-align: center;
+}
+
+.five img {
+    border: 1px solid pink;
+}
+
+.six {
+  grid-column: 3;
+  grid-row: 2;
+  text-align: center;
 }
 
 
@@ -541,7 +601,7 @@ button {
     margin-top: 75%;
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 650px) {
 
 html{
     scroll-behavior: smooth;
@@ -668,5 +728,63 @@ p2{
   flex-direction: column;
   align-items: center;
 
+}
+
+.wrapper {
+  display: grid;
+  padding: 10px;
+  grid-template-columns: repeat(2, 2fr);
+  grid-auto-rows: minmax(auto, auto);
+}
+
+.one {
+  grid-column: 1;
+  grid-row: 1;
+  text-align: center;
+
+}
+
+.one img {
+    border: 1px solid pink;
+}
+
+.two {
+  grid-column: 1;
+  grid-row: 2;
+  text-align: center;
+}
+
+.two img {
+    border: 1px solid pink;
+}
+
+.three {
+  grid-column: 2;
+  grid-row: 1;
+  text-align: center;
+}
+
+.three img {
+    border: 1px solid pink;
+}
+
+.four {
+  grid-column: 2;
+  grid-row: 2;
+  text-align: center;
+}
+
+.four img {
+    border: 1px solid pink;
+}
+
+.five {
+  grid-column: 1;
+  grid-row: 3;
+  text-align: center;
+}
+
+.five img {
+    border: 1px solid pink;
 }
 }
