@@ -13,14 +13,7 @@ body {
   width: 100%;
 }
 
-a {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    font-family: monospace;
-    font-size: 12px;
-}
+
 #particles-js {
     /* background-image:  linear-gradient(
       rgba(0, 0, 0, 0.5),
@@ -272,9 +265,14 @@ img {
 }
 
 a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
     color: white;
     font-family: monospace;
+    font-size: 12px;
 }
 
 h1{
@@ -1017,6 +1015,7 @@ p2{
   grid-column: 1;
   grid-row: 5;
   text-align: center;
+  size: 75%;
 }
 
 .five img {
@@ -1031,6 +1030,25 @@ p2{
 
 .six img {
     border: 1px solid pink;
+}
+
+.contactForm {
+    width: 100%
+}
+
+.wrapper img {
+    width: 200px;
+    height: 115px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.cardimg img {
+    width: 100px;
+    height: 100px;
+
 }
 
 }
