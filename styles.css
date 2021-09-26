@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 html{
     scroll-behavior: smooth;
     height:920px;
@@ -11,6 +12,10 @@ html{
 
 body {
   width: 100%;
+}
+
+.tech{
+    display: none;
 }
 
 
@@ -55,6 +60,7 @@ body {
 
 img {
     height: 200px;
+    border-radius: 33% 67% 71% 29% / 30% 30% 70% 70%;
 }
 
 #section2 img{
@@ -97,27 +103,21 @@ img {
 
 }
 
-.one img {
+#section3 img {
     border: 1px solid pink;
 }
 
-.one img:hover {
+#section3 img:hover {
     border: 1px solid yellow;
+    transform:scale(1.1);
+    border-radius: 5px 20px 5px;
 }
-
 
 .two {
   grid-column: 2;
   grid-row: 1;
   text-align: center;
   margin: 1rem;
-}
-
-.two img {
-    border: 1px solid pink;
-}
-.two img:hover {
-    border: 1px solid yellow;
 }
 
 .three {
@@ -127,13 +127,7 @@ img {
   margin: 1rem;
 }
 
-.three img {
-    border: 1px solid pink;
-}
 
-.three img:hover {
-    border: 1px solid yellow;
-}
 
 .four {
   grid-column: 1;
@@ -142,13 +136,6 @@ img {
   margin: 1rem;
 }
 
-.four img {
-    border: 1px solid pink;
-}
-
-.four img:hover {
-    border: 1px solid yellow;
-}
 
 .five {
   grid-column: 2;
@@ -157,27 +144,12 @@ img {
   margin: 1rem;
 }
 
-.five img {
-    border: 1px solid pink;
-}
-
-.five img:hover {
-    border: 1px solid yellow;
-}
 
 .six {
   grid-column: 3;
   grid-row: 2;
   text-align: center;
   margin: 1rem;
-}
-
-.six img {
-    border: 1px solid pink;
-}
-
-.six img:hover {
-    border: 1px solid yellow;
 }
 
 
