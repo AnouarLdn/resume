@@ -1446,4 +1446,68 @@ h1 {
 
 }
 
+.mainContainer{
+    left:1%;
+    width: 200px;
+    height: 170px;
+}
+
+.theBack{
+    font-size: 15px;
+}
+
+.mainContainer2{
+    left:1%;
+    width: 200px;
+    height: 170px;
+}
+
+.theBack2{
+    font-size: 15px;
+}
+
+.mainContainer3{
+    left:1%;
+    width: 200px;
+    height: 170px;
+}
+
+.theBack3{
+    font-size: 15px;
+}
+
+.mainContainer4{
+    left:1%;
+    width: 200px;
+    height: 170px;
+}
+
+.theBack4{
+    font-size: 15px;
+}
+
+.theBack4 button {
+    color: white;
+    background-color: pink;
+    border-radius:  25%, 50%;
+    width: 15px;
+}
+
+.mainContainer5{
+    left:1%;
+    width: 200px;
+    height: 170px;
+}
+
+.theBack5{
+    font-size: 15px;
+}
+
+.theBack5 button {
+    color: white;
+    background-color: pink;
+    border-radius:  25%, 50%;
+    /* width: 15px; */
+}
+
 }
