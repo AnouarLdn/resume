@@ -57,6 +57,372 @@ body {
     color: white;
 }
 
+.mainContainer{
+    padding-left: 25%;
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.cardPortfolio{
+    grid-column: 1;
+    grid-row: 3
+    position: absolute;
+    width: 100%;
+    height: 67%;
+    transform-style:preserve-3d;
+    transition: all 0.5s ease;
+}
+
+.cardPortfolio:hover{
+    transform: rotateY(180deg);
+}
+
+.theFront{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image: url("images/portfolio.png");
+    background-position: center;
+    background-size: 120%;
+    color: white;
+    text-align:center;
+    font-family: 'Caveat', cursive;
+    border-radius: 20px;
+    border-color:red;
+}
+
+.theBack{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    width:100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: yellow;
+    color: black;
+    transform: rotateY(180deg);
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.theBack button {
+    color: white;
+    background-color: pink;
+    border-radius:  25%, 50%;
+    width: 5px;
+}
+
+.mainContainer2{
+    padding-left: 25%;
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.cardPortfolio2{
+    grid-column: 1;
+    grid-row: 3
+    position: absolute;
+    width: 100%;
+    height: 67%;
+    transform-style:preserve-3d;
+    transition: all 0.5s ease;
+}
+
+.cardPortfolio2:hover{
+    transform: rotateY(180deg);
+}
+
+.theFront2{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image: url("images/calculator.png");
+    background-position: center;
+    background-size: 120%;
+    color: white;
+    text-align:center;
+    font-family: 'Caveat', cursive;
+    border-radius: 20px;
+    border-color:red;
+}
+
+.theBack2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    width:100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: yellow;
+    color: black;
+    transform: rotateY(180deg);
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.theBack2 button {
+    color: white;
+    background-color: pink;
+    border-radius:  25%, 50%;
+    width: 15px;
+}
+
+.mainContainer3{
+    padding-left: 25%;
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.cardPortfolio3{
+    grid-column: 1;
+    grid-row: 3
+    position: absolute;
+    width: 100%;
+    height: 67%;
+    transform-style:preserve-3d;
+    transition: all 0.5s ease;
+}
+
+.cardPortfolio3:hover{
+    transform: rotateY(180deg);
+}
+
+.theFront3{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image: url("images/Pig_Game.png");
+    background-position:center;
+    background-size: 150%;
+    color: white;
+    text-align:center;
+    font-family: 'Caveat', cursive;
+    border-radius: 20px;
+}
+
+.theBack3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    width:100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: yellow;
+    color: black;
+    transform: rotateY(180deg);
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.theBack3 button {
+    color: white;
+    background-color: pink;
+    border-radius:  25%, 50%;
+    width: 15px;
+}
+
+.mainContainer4{
+    padding-left: 25%;
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.cardPortfolio4{
+    grid-column: 1;
+    grid-row: 3
+    position: absolute;
+    width: 100%;
+    height: 67%;
+    transform-style:preserve-3d;
+    transition: all 0.5s ease;
+}
+
+.cardPortfolio4:hover{
+    transform: rotateY(180deg);
+}
+
+.theFront4{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image: url("images/Guest_List.png");
+    background-position: center;
+    background-size: 120%;
+    color: white;
+    text-align:center;
+    font-family: 'Caveat', cursive;
+    border-radius: 20px;
+    border-color:red;
+}
+
+.theBack4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    width:100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: yellow;
+    color: black;
+    transform: rotateY(180deg);
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.theBack4 button {
+    color: white;
+    background-color: pink;
+    border-radius:  25%, 50%;
+    width: 15px;
+}
+
+.mainContainer5{
+    padding-left: 25%;
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.cardPortfolio5{
+    grid-column: 1;
+    grid-row: 3
+    position: absolute;
+    width: 100%;
+    height: 67%;
+    transform-style:preserve-3d;
+    transition: all 0.5s ease;
+}
+
+.cardPortfolio5:hover{
+    transform: rotateY(180deg);
+}
+
+.theFront5{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image: url("images/houseofhaidary.png");
+    background-position: left;
+    background-size: 120%;
+    color: white;
+    text-align:center;
+    font-family: 'Caveat', cursive;
+    border-radius: 20px;
+}
+
+.theBack5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    width:100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: yellow;
+    color: black;
+    transform: rotateY(180deg);
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.theBack5 button {
+    color: white;
+    background-color: pink;
+    border-radius:  25%, 50%;
+    width: 15px;
+}
+
+.mainContainer6{
+    padding-left: 25%;
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.cardPortfolio6{
+    grid-column: 1;
+    grid-row: 3
+    position: absolute;
+    width: 100%;
+    height: 67%;
+    transform-style:preserve-3d;
+    transition: all 0.5s ease;
+}
+
+
+.cardPortfolio6:hover{
+    transform: rotateY(180deg);
+}
+
+.theFront6{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image: url("images/Pig_Game.png");
+    background-position: center;
+    background-size: 120%;
+    color: white;
+    text-align:center;
+    font-family: 'Caveat', cursive;
+    border-radius: 20px;
+    border-color:red;
+}
+
+.theBack6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    width:100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: yellow;
+    color: black;
+    transform: rotateY(180deg);
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.theBack6 button {
+    color: white;
+    background-color: pink;
+    border-radius:  25%, 50%;
+    width: 15px;
+    background-image: url("images/github.png");
+}
+
 
 img {
     height: 200px;
@@ -111,6 +477,7 @@ img {
     border: 1px solid yellow;
     transform:scale(1.1);
     border-radius: 5px 20px 5px;
+
 }
 
 .two {
@@ -844,6 +1211,44 @@ p{
 p2{
     font-size: 20px;
 }
+
+.mainContainer{
+    left:15%;
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.mainContainer2{
+    left:15%;
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.mainContainer3{
+    left:15%;
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.mainContainer4{
+    left:15%;
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.mainContainer5{
+    left:15%;
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.mainContainer6{
+    left:15%;
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
 
 .cards {
     display: flex;
