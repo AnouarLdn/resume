@@ -14,6 +14,26 @@ body {
   width: 100%;
 }
 
+.loader{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 16px solid gold;
+    border-top: 16px solid blue;
+    border-left: 16px solid red;
+    border-right: 16px solid green;
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    animation: spin 6s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg);}
+    100% { transform: rotate(360deg);}
+}
+
 .tech{
     display: none;
 }
@@ -387,9 +407,9 @@ body {
     width:100%;
     height: 100%;
     backface-visibility: hidden;
-    background-image: url("images/Pig_Game.png");
+    background-image: url("images/Parc_st_Jean.png");
     background-position: center;
-    background-size: 120%;
+    background-size: 100%;
     color: white;
     text-align:center;
     font-family: 'Caveat', cursive;
