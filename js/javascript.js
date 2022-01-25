@@ -27,38 +27,3 @@ window.addEventListener("scroll", () => {
   hamburger.nav.addEventListener('click', function(e) { hamburger.doToggle(e); });
 
 }());
-
-// // cursor
-//
-// let mouseCursor = document.querySelector(".cursor");
-// let submitBtn = document.querySelector("button");
-// let smartPhone = document.querySelector(".smartPhone");
-//
-// console.log(smartPhone);
-//
-// console.log(submitBtn);
-//
-// window.addEventListener("mousemove", cursor);
-//
-// function cursor(e) {
-//     mouseCursor.style.top = e.pageY + "px";
-//     mouseCursor.style.left = e.pageX + "px";
-// }
-//
-// submitBtn.addEventListener("mouseover", function(){
-//     mouseCursor.classList.add("cursor-grow");
-//     submitBtn.classList.add("hovered-button");
-// });
-//
-// submitBtn.addEventListener("mouseleave", function(){
-//     mouseCursor.classList.remove("cursor-grow");
-//     submitBtn.classList.remove("hovered-button");
-// });
-//
-// smartPhone.addEventListener("mouseover", function(){
-//     mouseCursor.classList.add("cursor-grow");
-// });
-//
-// smartPhone.addEventListener("mouseleave", function(){
-//     mouseCursor.classList.remove("cursor-grow");
-// });

@@ -441,7 +441,7 @@ body {
 
 img {
     height: 200px;
-    border-radius: 33% 67% 71% 29% / 30% 30% 70% 70%;
+    border-radius: 30% 30% 60% 60% / 30% 30% 70% 70%;
 }
 
 #section2 img{
@@ -588,7 +588,7 @@ img {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  -webkit-transition: all 0.5s ease;
+  -webkit-transition: all 0.9s ease;
   -moz-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
